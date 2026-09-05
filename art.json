@@ -1,0 +1,122 @@
+{
+  "Community Garden Website": {
+    "cover": "https://www.pngall.com/wp-content/uploads/11/Cute-Puppy-PNG-Cutout.png",
+    "frame": "https://cdn11.bigcommerce.com/s-1a728/images/stencil/1280x1280/products/606/2974/IMG_2648__97367.1639514939.png?c=2",
+    "start": "January 2026",
+    "end": "March 2026",
+    "type": "Web Design",
+    "status": "Completed",
+    "content": {
+      "introduction": {
+        "type": "p",
+        "value": "A responsive website created for a neighborhood community garden."
+      },
+      "projectHeading": {
+        "type": "h2",
+        "value": "Project goals"
+      },
+      "goals": {
+        "type": "ul",
+        "value": [
+          "Explain how the garden works",
+          "Publish upcoming volunteer events",
+          "Make membership information easy to find"
+        ]
+      },
+      "preview": {
+        "type": "img",
+        "value": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=1200&q=80"
+      },
+      "processHeading": {
+        "type": "h2",
+        "value": "Process"
+      },
+      "process": {
+        "type": "ol",
+        "value": [
+          "Interviewed garden members",
+          "Created wireframes",
+          "Built and tested the final site"
+        ]
+      },
+      "inspiration": {
+        "type": "moodboard",
+        "value": [
+          "https://images.unsplash.com/photo-1497250681960-ef046c08a56e?auto=format&fit=crop&w=800&q=80",
+          "https://images.unsplash.com/photo-1444392061186-9fc38f84f726?auto=format&fit=crop&w=800&q=80",
+          "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=800&q=80"
+        ]
+      }
+    }
+  },
+  "Personal Illustration Series": {
+    "cover": "https://th.bing.com/th/id/R.a552e2d24263c0b162875874fd6e0890?rik=DYFfoITywr3X7A&riu=http%3a%2f%2fimages7.alphacoders.com%2f331%2f331419.jpg&ehk=V6147rU80N0Tf%2b2yMoXYoxJj5eldl4HCu76MML5Z7Jc%3d&risl=&pid=ImgRaw&r=0",
+    "frame": "https://static.vecteezy.com/system/resources/thumbnails/021/515/680/small_2x/gold-colored-wooden-frame-on-transparent-background-file-png.png",
+    "start": "April 2026",
+    "end": "April 2026",
+    "type": "Illustration",
+    "status": "Published",
+    "content": {
+      "description": {
+        "type": "p",
+        "value": "A small collection of editorial illustrations exploring everyday routines."
+      },
+      "note": {
+        "type": "blockquote",
+        "value": "The project title appears on the library card because this project has no cover image."
+      }
+    }
+  },
+  "Ongoing Photography Archive": {
+    "cover": "https://images.unsplash.com/photo-1452780212940-6f5c0d14d848?auto=format&fit=crop&w=1200&q=80",
+    "frame": "https://static.vecteezy.com/system/resources/previews/015/072/009/original/gold-picture-frame-png.png",
+    "start": "May 2026",
+    "type": "Photography",
+    "status": "In progress",
+    "content": {
+      "description": {
+        "type": "p",
+        "value": "An ongoing archive of street photography. With no end date, the page displays the start date as ‘since May 2026’."
+      }
+    }
+  },
+  "yuh": {
+    "cover": "https://wallpapers.com/images/hd/cute-raccoon-pictures-8ko711mdlu4npfad.jpg",
+    "frame": "https://www.freeiconspng.com/uploads/vintage-frame-png-10.png",
+    "start": "some date idk",
+    "end": "hopefully never",
+    "status": "ongoing",
+    "content": {
+      "description": {
+        "type": "p",
+        "value": "some sort of description yeah’."
+      }
+    }
+  },
+  "yurp": {
+    "cover": "https://wallpapers.com/images/hd/cute-raccoon-pictures-8ko711mdlu4npfad.jpg",
+    "frame": "https://static.vecteezy.com/system/resources/previews/011/793/229/original/brown-wooden-frame-isolated-png.png",
+    "start": "some date idk",
+    "end": "hopefully never",
+    "status": "ongoing",
+    "content": {
+      "description": {
+        "type": "p",
+        "value": "some sort of description yeah’."
+      }
+    }
+  },
+  "yoop": {
+    "cover": "https://wallpapers.com/images/hd/cute-raccoon-pictures-8ko711mdlu4npfad.jpg",
+    "frame": "https://static.vecteezy.com/system/resources/previews/066/708/201/non_2x/gold-frame-on-transparent-background-free-png.png",
+    "start": "some date idk",
+    "end": "hopefully never",
+    "status": "ongoing",
+    "content": {
+      "description": {
+        "type": "p",
+        "value": "some sort of description yeah’."
+      }
+    }
+  }
+}

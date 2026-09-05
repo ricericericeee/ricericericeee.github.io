@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art</title>
+    <link href="/art.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+    <div class = "top">
+  		<h1 title="Go to the homepage!"><a href="index.html">Art Gallery</a></h1>
+  	</div>
+    <!--script type="module" src="projects.js"></script-->
+    <script type="module">
+      import projects from './art.json' with { type: 'json'};
+
+      // Library
+      class Library {
+          constructor(name) {
+              this.name = name;
+              this.items = [];
+          }
+      
+          display() {
+              // Cache DOM
+              this.body = document.querySelector("body");
+      
+              // Make DOM
+              const library = document.createElement("div");
+              library.id = 'library';
+              const plaque = document.createElement("div");
+              plaque.id = 'plaque';
+      
+              this.body.appendChild(library);
+              this.body.appendChild(plaque);
+      
+              // Display ITEMS in Library Element
+              for (const [key, value] of Object.entries(projects)) {
+                  console.log(key);
+                  console.log(value);
+      
+                  const project = document.createElement("div");
+                  project.classList.add("project");
+      
+                  /*if (value.cover) {
+                      project.style.backgroundImage = `url(${value.cover})`;
+                  } else {
+                      project.innerHTML = key;
+                  }*/
+                  if (value.cover) {
+                    const imageWrapper = document.createElement("div");
+                    imageWrapper.classList.add("project-image");
+                    
+                    const img = document.createElement("img");
+                    img.src = value.cover;
+                    img.alt = key;
+                    img.classList.add("project-photo");
+                    //project.appendChild(img);
+                    
+                    imageWrapper.appendChild(img);
+                    
+                    if (value.frame) {
+                      const frame = document.createElement("img");
+                      frame.src = value.frame;
+                      frame.alt = "";
+                      frame.classList.add("project-frame");
+                      
+                      imageWrapper.appendChild(frame);
+                    }
+                    
+                    project.appendChild(imageWrapper);
+                  } else {
+                    project.innerHTML = key;
+                  }
+      
+                  project.addEventListener("click", () => {
+                      this.displayContent(key, value);
+                  });
+      
+                  library.appendChild(project)
+              }
+          }
+      
+          displayContent(name, item) {
+              //plaque.style.display = "block"
+              
+              const container = document.querySelector("#plaque");
+              container.style.display = "block";
+              container.innerHTML = '';
+      
+
+              //const plaquecontent = document.createElement("plaque-content");
+              const plaquecontent = document.createElement("div");
+              plaquecontent.classList.add("plaque-content");
+              
+              
+              const close = document.createElement("div");
+              
+              close.addEventListener("click", () => {
+                console.log("The div was clicked!");
+                plaque.style.display = "none";
+              });
+              
+              close.id = 'close';
+              close.innerHTML = '&times';
+              plaquecontent.appendChild(close);
+            
+              
+              
+              // HEADER
+              const header = document.createElement('header');
+              // cover
+              if (item.cover) {
+                  const img = document.createElement('img');
+                  img.src = item.cover
+                  img.classList.add("cover");
+                  plaquecontent.appendChild(img)
+              }
+      
+              const el1 = document.createElement('div');
+              // title
+              const title = document.createElement('h1');
+              title.innerHTML = name
+              el1.appendChild(title)
+      
+              // dates
+              if (item.start) {
+                  const dates = document.createElement('p');
+                  let content;
+      
+                  if (item.start === item.end) {
+                      content = `${item.start}`
+                  } else if (item.end) {
+                      content = `${item.start} â€” ${item.end}`
+                  } else {
+                      content = `since ${item.start}`
+                  }
+      
+                  dates.innerHTML = content
+                  el1.appendChild(dates)
+              }
+              header.appendChild(el1)
+      
+              const el2 = document.createElement('div');
+              // type
+              if (item.type) {
+                  const type = document.createElement('h2');
+                  type.innerHTML = item.type
+                  el2.appendChild(type)
+              }
+      
+              // status
+              if (item.status) {
+                  const status = document.createElement('h3');
+                  status.innerHTML = item.status
+                  el2.appendChild(status)
+              }
+      
+              header.appendChild(el2)
+      
+              plaquecontent.appendChild(header)
+      
+              // MAIN
+              const main = document.createElement('main');
+      
+              for (const [key, value] of Object.entries(item.content)) {
+      
+                  let el;
+      
+                  if (value.type === 'moodboard') {
+                      el = document.createElement('div');
+                      el.classList.add('moodboard');
+                      value.value.forEach((listItem) => {
+                          const img = document.createElement('div');
+                          img.style.backgroundImage = `url(${listItem})`;
+                          img.classList.add('moodboardItem');
+                          el.appendChild(img)
+                      });
+      
+                  } else {
+                      el = document.createElement(value.type);
+      
+                      if (value.type === 'img') {
+                          el.src = value.value
+      
+                      } else if (value.type === 'ul' || value.type === 'ol') {
+                          value.value.forEach((listItem) => {
+                              const li = document.createElement('li');
+                              li.innerHTML = listItem
+                              el.appendChild(li)
+                          });
+      
+                      } else {
+                          if (value.value) {
+                              el.innerHTML = value.value
+                          }
+                      }
+                  }
+      
+                  main.appendChild(el)
+              }
+      
+              plaquecontent.appendChild(main)
+              container.appendChild(plaquecontent)
+          }
+      }
+      
+      // Log Projects
+      const projectsLibrary = new Library('projects');
+      projectsLibrary.display();
+      
+      //If user clicks on anything other than modal it closes
+      window.onclick = function(event) {
+        const plaque = document.querySelector("#plaque");
+        if (event.target == plaque) {
+          plaque.style.display = "none";
+        }
+      }
+      
+      
+    </script>
+      
+      
+      
+  </body>
+</html>
