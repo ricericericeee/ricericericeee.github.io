@@ -67,16 +67,16 @@
       }
     }
   },
-  "Ongoing Photography Archive": {
+  "Lucked Out": {
     "cover": "/gallery/fair.jpg",
     "frame": "https://static.vecteezy.com/system/resources/previews/015/072/009/original/gold-picture-frame-png.png",
-    "start": "May 2026",
-    "type": "Photography",
-    "status": "In progress",
+    "start": "May 26, 2023",
+    "type": "Unplanned Planned Hang",
+    "status": "Taken by Arianne",
     "content": {
       "description": {
         "type": "p",
-        "value": "An ongoing archive of street photography. With no end date, the page displays the start date as ‘since May 2026’."
+        "value": "Birth and end of the Brick. 6:02 PM - 6:09 PM"
       }
     }
   },
