@@ -80,16 +80,16 @@
       }
     }
   },
-  "yuh": {
+  "SUBLIME": {
     "cover": "/gallery/barbie.jpg",
     "frame": "https://www.freeiconspng.com/uploads/vintage-frame-png-10.png",
-    "start": "some date idk",
-    "end": "hopefully never",
-    "status": "ongoing",
+    "start": "July 31, 2023",
+    "type": "Movie date",
+    "status": "Taken from a third party",
     "content": {
       "description": {
         "type": "p",
-        "value": "some sort of description yeah’."
+        "value": "Started flexing and never stopped"
       }
     }
   },
