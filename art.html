@@ -132,9 +132,10 @@
                       content = `${item.start}`
                   } else if (item.end) {
                       content = `${item.start} â€” ${item.end}`
-                  } else {
-                      content = `since ${item.start}`
-                  }
+                  } 
+                //   else {
+                //       content = `since ${item.start}`
+                //   }
       
                   dates.innerHTML = content
                   el1.appendChild(dates)
