@@ -1,6 +1,6 @@
 {
   "Community Garden Website": {
-    "cover": "/gallery/a.jpg",
+    "cover": "/gallery/hoodie.jpg",
     "frame": "https://cdn11.bigcommerce.com/s-1a728/images/stencil/1280x1280/products/606/2974/IMG_2648__97367.1639514939.png?c=2",
     "start": "January 2026",
     "end": "March 2026",
@@ -50,7 +50,7 @@
     }
   },
   "Personal Illustration Series": {
-    "cover": "https://th.bing.com/th/id/R.a552e2d24263c0b162875874fd6e0890?rik=DYFfoITywr3X7A&riu=http%3a%2f%2fimages7.alphacoders.com%2f331%2f331419.jpg&ehk=V6147rU80N0Tf%2b2yMoXYoxJj5eldl4HCu76MML5Z7Jc%3d&risl=&pid=ImgRaw&r=0",
+    "cover": "/gallery/clean.jpg",
     "frame": "https://static.vecteezy.com/system/resources/thumbnails/021/515/680/small_2x/gold-colored-wooden-frame-on-transparent-background-file-png.png",
     "start": "April 2026",
     "end": "April 2026",
@@ -68,7 +68,7 @@
     }
   },
   "Ongoing Photography Archive": {
-    "cover": "https://images.unsplash.com/photo-1452780212940-6f5c0d14d848?auto=format&fit=crop&w=1200&q=80",
+    "cover": "/gallery/fair.jpg",
     "frame": "https://static.vecteezy.com/system/resources/previews/015/072/009/original/gold-picture-frame-png.png",
     "start": "May 2026",
     "type": "Photography",
@@ -81,7 +81,7 @@
     }
   },
   "yuh": {
-    "cover": "https://wallpapers.com/images/hd/cute-raccoon-pictures-8ko711mdlu4npfad.jpg",
+    "cover": "/gallery/barbie.jpg",
     "frame": "https://www.freeiconspng.com/uploads/vintage-frame-png-10.png",
     "start": "some date idk",
     "end": "hopefully never",
@@ -94,7 +94,7 @@
     }
   },
   "yurp": {
-    "cover": "https://wallpapers.com/images/hd/cute-raccoon-pictures-8ko711mdlu4npfad.jpg",
+    "cover": "/gallery/foreshadowing.jpg",
     "frame": "https://static.vecteezy.com/system/resources/previews/011/793/229/original/brown-wooden-frame-isolated-png.png",
     "start": "some date idk",
     "end": "hopefully never",
@@ -107,7 +107,7 @@
     }
   },
   "yoop": {
-    "cover": "https://wallpapers.com/images/hd/cute-raccoon-pictures-8ko711mdlu4npfad.jpg",
+    "cover": "/gallery/stalked.jpg",
     "frame": "https://static.vecteezy.com/system/resources/previews/066/708/201/non_2x/gold-frame-on-transparent-background-free-png.png",
     "start": "some date idk",
     "end": "hopefully never",
