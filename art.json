@@ -106,16 +106,16 @@
       }
     }
   },
-  "yoop": {
+  "Stalked": {
     "cover": "/gallery/stalked.jpg",
     "frame": "https://static.vecteezy.com/system/resources/previews/066/708/201/non_2x/gold-frame-on-transparent-background-free-png.png",
-    "start": "some date idk",
-    "end": "hopefully never",
-    "status": "ongoing",
+    "start": "March 30, 2024",
+    "type": "Shopping",
+    "status": "Shot by Vanessa's cousin",
     "content": {
       "description": {
         "type": "p",
-        "value": "some sort of description yeah’."
+        "value": "Can't even drink in peace"
       }
     }
   }
