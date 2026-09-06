@@ -177,13 +177,13 @@ header:first-child {
 
 header h1 {
     margin: 0;
-    text-transform: lowercase;
+    /* text-transform: lowercase; */
     line-height: 1.5rem;
     margin-top: 1rem;
 }
 
 header p {
-    margin-top: -.5rem;
+    margin-top: .5rem;
 }
 
 header p, header h2, header h3 {
