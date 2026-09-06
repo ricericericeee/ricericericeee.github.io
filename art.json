@@ -118,5 +118,18 @@
         "value": "Can't even drink in peace"
       }
     }
+  },
+  "Stalked": {
+    "cover": "/gallery/stalked.jpg",
+    "frame": "https://cdn11.bigcommerce.com/s-1a728/images/stencil/1280x1280/products/606/2974/IMG_2648__97367.1639514939.png?c=2",
+    "start": "March 30, 2024",
+    "type": "Shopping",
+    "status": "Shot by Vanessa's cousin",
+    "content": {
+      "description": {
+        "type": "p",
+        "value": "Can't even drink in peace"
+      }
+    }
   }
 }
