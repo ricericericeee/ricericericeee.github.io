@@ -96,13 +96,13 @@
   "yurp": {
     "cover": "/gallery/foreshadowing.jpg",
     "frame": "https://static.vecteezy.com/system/resources/previews/011/793/229/original/brown-wooden-frame-isolated-png.png",
-    "start": "some date idk",
-    "end": "hopefully never",
-    "status": "ongoing",
+    "start": "December 27, 2021",
+    "type": "Family Gathering",
+    "status": "Selfie",
     "content": {
       "description": {
         "type": "p",
-        "value": "some sort of description yeah’."
+        "value": "Will be real one day"
       }
     }
   },
