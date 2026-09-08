@@ -131,5 +131,18 @@
         "value": "Beneath the clothes, we find a man. And beneath the man. We find. His nucleus"
       }
     }
-  }
+  },
+  "Fallout": {
+    "cover": "/gallery/vegas.jpg",
+    "frame": "https://static.vecteezy.com/system/resources/previews/015/072/009/original/gold-picture-frame-png.png",
+    "start": "May 26, 2023",
+    "type": "Roadtrip",
+    "status": "Selfie",
+    "content": {
+      "description": {
+        "type": "p",
+        "value": "First rule of the wasteland: thou shalt get sidetracked by random bullshit"
+      }
+    }
+  },
 }
