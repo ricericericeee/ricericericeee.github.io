@@ -135,7 +135,7 @@
   "Fallout": {
     "cover": "/gallery/vegas.jpg",
     "frame": "https://static.vecteezy.com/system/resources/previews/015/072/009/original/gold-picture-frame-png.png",
-    "start": "May 26, 2023",
+    "start": "December 26, 2021",
     "type": "Roadtrip",
     "status": "Selfie",
     "content": {
@@ -145,4 +145,17 @@
       }
     }
   },
+  "Tala": {
+    "cover": "/gallery/dance.jpg",
+    "frame": "https://static.vecteezy.com/system/resources/previews/015/072/009/original/gold-picture-frame-png.png",
+    "start": "March 15, 2020",
+    "type": "Dance",
+    "status": "Taken by Andrew Alvarado",
+    "content": {
+      "description": {
+        "type": "p",
+        "value": "Ube cake"
+      }
+    }
+  }
 }
