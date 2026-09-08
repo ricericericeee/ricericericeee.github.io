@@ -157,5 +157,18 @@
         "value": "Ube cake"
       }
     }
+  },
+  "Bebop": {
+    "cover": "/gallery/profile.jpg",
+    "frame": "https://static.vecteezy.com/system/resources/previews/011/793/229/original/brown-wooden-frame-isolated-png.png",
+    "start": "May 19, 2020",
+    "type": "Discord",
+    "status": "Selfie?",
+    "content": {
+      "description": {
+        "type": "p",
+        "value": "John with the Perfect Score
+      }
+    }
   }
 }
