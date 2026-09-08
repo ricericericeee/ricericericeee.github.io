@@ -183,5 +183,18 @@
         "value": "I think we've done pretty good so far"
       }
     }
-  }
+  },
+  "Challengers. and your cousin is also there": {
+    "cover": "/gallery/mall.jpg",
+    "frame": "https://static.vecteezy.com/system/resources/previews/015/072/009/original/gold-picture-frame-png.png",
+    "start": "November 19, 2023",
+    "type": "Anniversary (not ours)",
+    "status": "Selfie",
+    "content": {
+      "description": {
+        "type": "p",
+        "value": "A queen and her jesters"
+      }
+    }
+  },
 }
