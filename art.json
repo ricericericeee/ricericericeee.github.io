@@ -93,7 +93,7 @@
       }
     }
   },
-  "yurp": {
+  "I Do": {
     "cover": "/gallery/foreshadowing.jpg",
     "frame": "https://static.vecteezy.com/system/resources/previews/011/793/229/original/brown-wooden-frame-isolated-png.png",
     "start": "December 27, 2021",
@@ -168,6 +168,19 @@
       "description": {
         "type": "p",
         "value": "John with the Perfect Score"
+      }
+    }
+  },
+  "Goodbye": {
+    "cover": "/gallery/goodbye.jpg",
+    "frame": "https://static.vecteezy.com/system/resources/previews/011/793/229/original/brown-wooden-frame-isolated-png.png",
+    "start": "August 8, 2025",
+    "type": "See You Later",
+    "status": "Taken by your mom",
+    "content": {
+      "description": {
+        "type": "p",
+        "value": "I think we've done pretty good so far"
       }
     }
   }
