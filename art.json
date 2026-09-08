@@ -197,4 +197,30 @@
       }
     }
   },
+  "See You Again": {
+    "cover": "/gallery/tyler.jpg",
+    "frame": "https://static.vecteezy.com/system/resources/previews/011/793/229/original/brown-wooden-frame-isolated-png.png",
+    "start": "February 21, 2025",
+    "type": "Concert",
+    "status": "Selfie",
+    "content": {
+      "description": {
+        "type": "p",
+        "value": "You are the light"
+      }
+    }
+  },
+  "A Promise": {
+    "cover": "/gallery/rings.jpg",
+    "frame": "https://static.vecteezy.com/system/resources/previews/011/793/229/original/brown-wooden-frame-isolated-png.png",
+    "start": "July 23, 2025",
+    "type": "See You Later",
+    "status": "Portrait",
+    "content": {
+      "description": {
+        "type": "p",
+        "value": "A piece of you"
+      }
+    }
+  }
 }
