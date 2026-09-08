@@ -118,5 +118,57 @@
         "value": "Can't even drink in peace"
       }
     }
+  },
+  "ooxxooXoXXx": {
+    "cover": "/gallery/nacho.jpg",
+    "frame": "https://cdn11.bigcommerce.com/s-1a728/images/stencil/1280x1280/products/606/2974/IMG_2648__97367.1639514939.png?c=2",
+    "start": "October 29, 2022",
+    "type": "Halloween",
+    "status": "Selfie",
+    "content": {
+      "description": {
+        "type": "p",
+        "value": "Beneath the clothes, we find a man. And beneath the man. We find. His nucleus"
+      }
+    }
+  },
+  "Fallout": {
+    "cover": "/gallery/vegas.jpg",
+    "frame": "https://static.vecteezy.com/system/resources/previews/015/072/009/original/gold-picture-frame-png.png",
+    "start": "December 26, 2021",
+    "type": "Roadtrip",
+    "status": "Selfie",
+    "content": {
+      "description": {
+        "type": "p",
+        "value": "First rule of the wasteland: thou shalt get sidetracked by random bullshit"
+      }
+    }
+  },
+  "Tala": {
+    "cover": "/gallery/dance.jpg",
+    "frame": "https://static.vecteezy.com/system/resources/previews/015/072/009/original/gold-picture-frame-png.png",
+    "start": "March 15, 2020",
+    "type": "Dance",
+    "status": "Taken by Andrew Alvarado",
+    "content": {
+      "description": {
+        "type": "p",
+        "value": "Ube cake"
+      }
+    }
+  },
+  "Bebop": {
+    "cover": "/gallery/profile.jpg",
+    "frame": "https://static.vecteezy.com/system/resources/previews/011/793/229/original/brown-wooden-frame-isolated-png.png",
+    "start": "May 19, 2020",
+    "type": "Discord",
+    "status": "Selfie?",
+    "content": {
+      "description": {
+        "type": "p",
+        "value": "John with the Perfect Score"
+      }
+    }
   }
 }
