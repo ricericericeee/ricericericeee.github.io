@@ -4,9 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>angelversary</title>
-    <!-- The style.css file allows you to change the look of your web pages.
-         If you include the next line in all your web pages, they will all share the same look.
-         This makes it easier to make new pages for your site. -->
     <link href="/style.css" rel="stylesheet" type="text/css" media="all">
     <style>
       html, body {
@@ -28,6 +25,7 @@
         align-items: flex-end;
         
         position: absolute;
+        left: 0;
         bottom: 12vh;
 
         width: 100%;
@@ -43,11 +41,14 @@
         align-items: flex-end;
 
         height: 100%;
-        max-width: 30%;
+        /* max-width: 30%; */
       }
 
       .door-container img {
+        display: block;
         object-fit: contain;
+        width: auto;
+        max-width: 100%;
       }
       .door1{
         height: clamp(300px, 78vh, 620px); 
@@ -72,9 +73,12 @@
   <body>
     <h1 style="text-align: center;">Happy seven years</h1>
     
-    <a href="/natural-history.html"><img class="door1" src="doors/door1closed.png" alt=""></a>
-    <a href="/air-and-space.html"><img class="door2" src="doors/door2closed.png" alt=""></a>
-    <a href="/art.html"><img class="door3" src="doors/door3closed.png" alt=""></a>
+    <div class="door-container">
+      <a href="/natural-history.html"><img class="door1" src="doors/door1closed.png" alt=""></a>
+      <a href="/air-and-space.html"><img class="door2" src="doors/door2closed.png" alt=""></a>
+      <a href="/art.html"><img class="door3" src="doors/door3closed.png" alt=""></a>
+    </div>
+    
 
   </body>
 </html>
